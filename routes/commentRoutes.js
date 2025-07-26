@@ -1,7 +1,7 @@
 /* --- NEW FILE: server/routes/commentRoutes.js --- */
 const express = require('express');
 const router = express.Router();
-const commentController = require('../controllers/commentController');
+const commentController = require('../controllers/CommentController');
 const { auth } = require('../middleware/auth');
 
 // Get all comments for an item
