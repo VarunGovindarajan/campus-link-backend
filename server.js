@@ -22,7 +22,7 @@ const httpServer = http.createServer(app);
 // --- Initialize Socket.IO Server ---
 const io = new Server(httpServer, {
     cors: {
-        origin: "http://localhost:5173", // Your frontend URL
+        origin: "https://campus-link-git-main-varuns-projects-5d494eb3.vercel.app", // Your frontend URL
         methods: ["GET", "POST"]
     }
 });
